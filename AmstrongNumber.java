@@ -3,8 +3,8 @@ package week1.day1;
 public class AmstrongNumber {
 
 	public static void main(String[] args) {
-		int number1=371;
-		int number=371;
+		int number1=153;
+		int number=153;
 		int remainder;
 		double sum = 0;
 		while (number>0) {
@@ -13,9 +13,9 @@ public class AmstrongNumber {
 			number=number/10;
 }
 		if (sum==number1)
-		System.out.println("The number is amstrong number");
+		System.out.println("The number " +number1 + " is an amstrong number");
 		else
-			System.out.println("The number is not an amstrong number");
+			System.out.println("The number " +number1 + " is not an amstrong number");
 }
 
 }
